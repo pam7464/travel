@@ -1,0 +1,88 @@
+@charset 'utf-8';
+.header{
+    border-bottom:1px solid #444;
+    background-color:#fff;
+    color:#444;
+}
+.btn-nav .line{
+    background-color:#444;
+}
+.section{
+    padding-top:113px;
+}
+
+.sec-tit h2{
+    margin-bottom:16px;
+    font-weight:500;
+    font-size:20px;
+    text-align:center;
+}
+.img-box,.login-wrap{
+    margin-bottom:20px;
+}
+
+.login-sns{
+    width:260px;            
+    margin:5px auto;
+    padding:10px;
+    border-radius:6px;
+    background-color:red;
+    font-weight:500;
+    font-size:16px;
+    color:#fff;
+    text-align:center;
+    filter:blur(01px);
+    /* -webkit-filter:blur(20px); */
+    /* -webkit-filter: ; */
+}
+.login-sns:hover{
+    filter:blur(0);
+}
+.naver{
+    background-color:green;
+}
+.daum{
+    border:1px solid #444;
+    background-color:transparent;
+    color:#444;
+}
+.e-mail{
+    background-color:#999;
+}
+
+.save-login input{
+    display:none;
+}
+
+.save-login .btn-save{
+    width:32px;
+    height:18px;
+    margin:0 auto;
+    border:1px solid #444;
+    border-radius:9px;
+    background-color:#fff;
+    transition:0.1s;
+}
+.save-login .btn-save::before{
+    content:'';
+    display:block;
+    width:14px;
+    height:14px;
+    border:1px solid #444;
+    border-radius:7px;
+    background-color:#fff;
+    transition:0.1s;
+}
+.save-login input:checked + .btn-save{
+    background-color:#0f0;
+}
+.save-login input:checked + .btn-save::before{
+    margin-left:14px;
+}
+.save-login p{
+    font-size:12px;
+    text-align:center;
+}
+.move-top{
+    display:none !important;
+}

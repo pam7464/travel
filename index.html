@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="여행,투어,travel,tour">
+    <meta name="description" content="여행,투어,travel,tour">
+
+    <!-- 오픈그래픽 -->
+    <meta property="og:image" content="./images/og-img.jpg">
+    <meta property="og:url" content="https://pam7464.github.io/travel">
+    <meta property="og:title" content="나는 위한 선물 - 여행"> 
+    <meta property="og:description" content="전세계 어디든 마음만 먹으면 갈수있습니다. 당신의 여행 파트너...">
+    
+    <!-- 트위터 카드 -->
+    <meta name="twitter:card" content="summary">
+    <meta name ="twitter:image" content="./images/og-img.jpg">
+    <meta name ="twitter:url" content="https://pam7464.github.io/travel">
+    <meta name="twitter:title" content="나는 위한 선물 - 여행"> 
+    <meta name="twitter:description" content="전세계 어디든 마음만 먹으면 갈수있습니다. 당신의 여행 파트너...">
+    <!-- reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <!-- 라이브러리/플러그인 -->
+    <!-- bxSlider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>나는 위한 선물 - 여행</title>
+    <!-- 기본공통스타일 -->
+    <link rel="stylesheet" href="./css/default.css">
+    <!-- index스타일 -->
+    <link rel="stylesheet" href="./css/index-style.css">
+</head>
+<body>
+    <a class="skip-menu" href="#main">본문 바로가기</a>
+   
+    <section class="wrap">
+        <header class="header" id="header">
+            <div class="container">
+                <div class="inner">
+                    <h1 class="logo">
+                        <a href="./index.html">
+                            <span>TRAVEL TOUR</span>
+                            <span>KOREA NUMBER 1 TOUR</span>
+                        </a>                        
+                    </h1>
+                    <div class="btn-nav" id="btn-nav">
+                        <div class="line">라인1</div>
+                        <div class="line">라인2</div>
+                        <div class="line">라인3</div>
+                    </div>
+                    <nav class="nav">
+                        <ul class="member clearfix">
+                            <li><a href="./login.html">로그인</a></li>
+                            <li><a href="./join.html">회원가입</a></li>
+                        </ul>
+                        <ul class="nav-list">
+                            <li class="bd-bt bd-rt">
+                                <a href="./tour-info.html">                                   
+                                    <i class="fas fa-info"></i>여행정보
+                                </a>
+                            </li>
+                            <li class="bd-bt">
+                                <a href="./member-center.html">
+                                    <i class="fas fa-phone"></i>고객센터
+                                </a>
+                            </li>
+                            <li class="bd-rt">
+                                <a href="tour-program.html">
+                                    <i class="fas fa-car"></i>상품투어
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./ticket.html">
+                                    <i class="fas fa-ticket-alt"></i>티켓/가이드
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="main-slider">
+            <div class="slider">
+                <div><a href="#"><img src="./images/slide01.jpg" alt="여행경비 30% 할인"></a></div>
+                <div><a href="#"><img src="./images/slide02.jpg" alt="2+1 둘이 모이면 한명은 공짜"></a></div>
+                <div><a href="#"><img src="./images/slide03.jpg" alt="위드코로나로 인한 특별한 혜택"></a></div>
+            </div>
+        </section>
+        <section class="section" id="main">
+            <div class="container">
+                <div class="sec-tit">
+                    <h2>다시 찾는 인기 여행지</h2>
+                    <h3 class="sm-tit">TOP3</h3>
+                </div>
+                <article class="art01" id="art01">
+                    <div class="img-box"><a href="#" onclick="return false;"><img src="./images/best01.jpg" alt="첨성대"></a></div>
+                    <h3 class="sm-tit">경주 첨성대</h3>
+                    <p>별기에 따르면 이 왕(선덕여왕)의 치세에 석축을 쌓아 첨성대를 만들었다고 전한다.</p>                    
+                </article>
+                <div class="modal" id="modal01">
+                    <div class="contents">
+                        <div class="img-box"><img src="./images/best01.jpg" alt="첨성대"></div>
+                        <h4 class="sm-tit">경주 첨성대</h4>
+                        <p>
+                            삼국유사에는 7세기 중엽 신라의 선덕여왕 시대에 건립했다고 기록했다. 세종실록에서는 633년(선덕여왕 2)에 세워졌다고 전하고 있다. 만든 시대 외에 정확한 건축가는 기록에 남아있지 않지만, 선덕여왕 때 석탈해왕의 16세손 석오원이 첨성대를 건축했다는 주장이 있다. 그러나 이는 출처가 <석씨계보(昔氏系譜)>라서 신빙성이 떨어진다는 시각이 있다
+                        </p>
+                    </div>
+                </div>
+                <article class="art02">
+                    <div class="img-box"><a href="#"><img src="./images/best02.jpg" alt="런던 브릿지"></a></div>
+                    <h3 class="sm-tit">런던 브릿지</h3>
+                    <p>해가 지지않는 대영제국의 수도 런던 템즈강에 위치한 다리로 배가 지나가면 들어 올려진다. 스타이더멘등의 영화 촬영장으로도 유명하다.</p>
+                </article>
+                <article class="art03">
+                    <div class="img-box"><a href="#"><img src="./images/best03.jpg" alt="이집트 피라미드"></a></div>
+                    <h3 class="sm-tit">이집트 피라미드</h3>
+                    <p>세계 4대 문명지인 아프리카의 이집트 고왕조 시대의 전축물로써 위대한 파라오의 무덤이라는 설과 외계인이 내려와서 건설한 안테라나는 말도 있다.</p>
+                </article>
+            </div>
+        </section>
+        <section class="line"></section>
+        <section class="notice">
+            <div class="container">
+                <h2 class="sm-tit">공지사항</h2>
+                <ul class="notice-list">
+                    <li><a href="#">· 항공 앱 & 호텔 앱 서비스 통합 안내</a></li>
+                    <li><a href="#">· 오미크론 변이 관련 취소료 규정 변경 공지</a></li>
+                    <li><a href="#">· 투어/입장권 시스템 점검에 따른 이용제한 안내</a></li>
+                    <li><a href="#">· 아에로멕시코(AM) 미 파산 법원 청구 증명 신청에 대한 수수료 및 즉시 발급안내</a></li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <strong><a href="#">이용약관</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">개인정보처리방침</a></strong>
+                <address>
+                    투어리스트 트레벌
+                    <br>
+                    인천광역시 서구 연희동 연후희로 1-1
+                    <br>
+                    E-mail : pam7461@gmail.com
+                    <br>
+                    만든이 : 홍길동
+                </address>
+                <div class="sns">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                </div>
+                <div class="move-top">
+                    <a href="#header"><i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- bxSlider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- smoothScroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js" integrity="sha512-0tWfLL+YANip9Uo2YUY4/SxvwDgPUuoSUcIXPFULXiXXgLKmiC/qCeDxnhl+mLobu6e/dSlyhGheCtzd9+RLCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- 기본공통스크립트 -->
+    <script src="./js/default.js"></script>
+    <script>       
+        let _slider = document.querySelector('.slider');
+        mySlider(_slider);
+
+        let moveBtn = document.querySelector('.footer .move-top a');
+        smScl(moveBtn);
+        
+        let _art01 = document.getElementById('art01');// _art 이벤트 트리거
+        let _modal01 = document.getElementById('modal01');// _modal01 target
+        disBlock(_art01,_modal01);
+        
+        let _modal = document.querySelectorAll('.modal');// _modal 트리거/target
+        disNone(_modal);
+    </script>
+</body>
+</html>
